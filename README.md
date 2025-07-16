@@ -1,12 +1,14 @@
+# AWS Resource Inventory Extractor 🛠️
 
-# AWS Resource Listing Tool
-# Introduction
-This runbook provides step-by-step instructions for running the provided Python program, which exports AWS resources and configurations for specified region/s given from the user.
+This tool automates the extraction of AWS resource information across services and regions using Python and the Boto3 SDK. It’s useful for generating inventory reports, validating compliance, or auditing AWS accounts.
 
-# Prerequisites
-Before using this tool, ensure that you have the following prerequisites installed:
+---
 
-1. Python 3 installed on your system.
-2. boto3 library installed. You can install it using pip install boto3.
-3. AWS access key ID and secret access key for a user with sufficient permissions to access AWS resources.
-4. A aws_services_methods.json file containing service and method configurations.
+## 📋 Features
+
+- Extracts a wide range of AWS resource metadata.
+- Works across multiple regions.
+- Dynamically uses a JSON file to determine which AWS services and methods to call.
+- Output-ready for logging, reporting, or further automation.
+
+---
